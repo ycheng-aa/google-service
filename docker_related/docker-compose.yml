@@ -1,0 +1,14 @@
+version: '2'
+services:
+  backend:
+    container_name: backend
+    hostname: backend
+    image: jaykangta/maze-google:0.0.2
+    restart: always
+    ports:
+      - "8089:8089"
+    command: bash
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./data:/data

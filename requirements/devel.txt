@@ -1,0 +1,7 @@
+-r product.txt
+
+flake8==4.0.1
+coverage==4.5.2
+mock==4.0.2
+line_profiler==3.5.1
+ipdb==0.13.9
